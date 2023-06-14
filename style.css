@@ -1,0 +1,220 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+@font-face {
+    font-family: "Amalfi";
+    src: url(../fonts/Amalfi\ Coast.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Authentic Signature";
+    src: url(../fonts/Authentic\ Signature.otf) format("opentype");
+}
+
+@font-face {
+    font-family:"Better together" ;
+    src: url(../fonts/Better\ Together.ttf) format("truetype");
+}
+:root{
+--darkblue : #262b44
+}
+
+
+body{
+    color: var(--darkblue);
+}
+
+.cover{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(img/bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: -2;
+}
+
+.isi-undangan,  .card-date, .story{
+    background-image: url(img/bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: -2;
+}
+
+.save-date{
+    background-image: url(img/bg2.jpg);
+    background-position: center;
+    z-index: -2;
+
+}
+
+.map{
+    background-color: var(--darkblue);
+}
+.bunga{
+    width: 20%;
+    z-index: -1;
+    
+}
+
+.mempelai img{
+    width: 300px;
+}
+
+.text-darkblue{
+    color: var(--darkblue);
+}
+
+.tittle{
+    z-index: 0;
+    font-family: charlemagne;
+}
+
+
+.gambar-mempelai img{
+    width: 400px;
+}
+
+.nama-mempelai-cover, .nama-mempelai-isi, .dan{
+    font-family: "Authentic Signature";
+    font-size: 5rem;
+}
+
+.date-day{
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.date-day, .countdown{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ayat-suci{
+    background-image: url(img/bg3.jpg);
+    background-position: center;
+    background-size: cover;
+    font-size: 1rem;
+}
+
+.sub-tgl{
+    margin-top: -20px;
+}
+.sub-tempat{
+    margin-top: -10px;
+}
+.ayat-suci p{
+    width: 80%;
+    margin: 0 auto;
+}
+.cd-card{
+    border: 2px solid var(--darkblue);
+    border-radius: 10px;
+    margin-left: 10px;
+    line-height: 1;
+    padding: 5px;
+    font-size: 2rem;
+}
+
+.bismillah{
+    width: 300px;
+}
+
+.orang-tua{
+    width: 300px;
+    margin-top: -40px;
+}
+
+.salam{
+    font-family: "Amalfi";
+}
+
+.sambutan p{
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+.sub-card h2, .lokasi-peta, .story h3{
+    font-family: "Better Together";
+    font-size: 2.5rem;
+    color: var(--darkblue);
+}
+
+.card-date{
+    border-radius: 15px;
+
+}
+
+
+.card-story img{
+    width: 70%;
+    border-radius: 5px;
+}
+
+.story{
+    font-family: "Alice";
+    color: var(--darkblue);
+}
+
+.story h6{
+    font-weight: bold;
+}
+@media only screen and (max-width: 480px) {
+    .bunga{
+        width: 30%;
+    }
+    .cd-card{
+        font-size: 1rem;
+        
+    }
+    .date-day{
+        margin-top: -10px;
+        font-size: 1rem;
+    }
+
+    .orang-tua{
+        width: 200px;
+        margin-top: -30px;
+        font-size: .8rem;
+    }
+
+    .ayat-suci, .sambutan{
+        font-size: .8rem;
+        
+    }
+
+    .sambutan p{
+        width: 300px;
+    }
+
+    
+
+    .ayat-suci p {
+        width: 100%;
+    }
+    .tittle{
+        font-size: 2rem;
+    }
+
+    .bismillah{
+        width: 200px;
+    }
+
+    .cover{
+        padding-top: 120px;
+        padding-bottom: 100px;
+    }
+
+    .gambar-mempelai img{
+        width: 200px;
+    }
+
+    .nama-mempelai-cover, .nama-mempelai-isi{
+        font-size: 4rem;
+    }
+    .mempelai img{
+        width: 150px;
+    }
+
+    .salam{
+        font-size: .7rem;
+    }
+}
